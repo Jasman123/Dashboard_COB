@@ -1,4 +1,4 @@
-name: CI/CD to Docker Hub
+name: CD for Streamlit App
 
 on:
   push:
