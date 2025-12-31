@@ -29,4 +29,4 @@ jobs:
           python -c "import streamlit"
 
       - name: Build Docker image
-        run: docker build -t streamlit-app_1 .
+        run: docker build -t streamlit-app .

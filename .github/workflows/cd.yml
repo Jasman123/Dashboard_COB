@@ -27,4 +27,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/streamlit-app_1:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/streamlit-app:latest
