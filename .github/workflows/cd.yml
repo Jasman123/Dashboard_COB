@@ -41,7 +41,7 @@ jobs:
         uses: google-github-actions/deploy-cloudrun@v1
         with:
           service: streamlit-app      
-          image: ${{ secrets.DOCKERHUB_USERNAME }}/streamlit-${{ github.sha }}
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/streamlit-app:${{ github.sha }}
           region: asia-southeast2                  
           project_id: ${{ secrets.GCP_PROJECT_ID }}
 
