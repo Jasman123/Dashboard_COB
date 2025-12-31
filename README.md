@@ -1,8 +1,5 @@
 # Dashboard COB
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)]()
-[![Docker](https://img.shields.io/badge/Docker-Ready-Yes-blue.svg)]()
 
 ## 📌 Project Overview
 
