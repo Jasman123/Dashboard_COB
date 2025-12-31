@@ -28,3 +28,7 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/streamlit-app:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/streamlit-app:${{ github.sha }}
+          cache-from: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/streamlit-app:latest
+          cache-to: type=inline
+
